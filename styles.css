@@ -64,3 +64,50 @@ header a:hover {
     background-color: white;
     color: purple;
 }
+
+article	{
+	font-family: sans-serif;
+	margin: 0.625em 0.313em;
+	padding: 1.875em;
+	line-height: 2em;
+	padding-bottom: 1.875em;
+	border-bottom: solid 2px #e1e1e1;
+	margin-bottom: 6.250em;
+	
+}
+
+section h1 {
+	font-family: sans-serif;
+	padding-left: 1.875em;
+}
+section {
+	width: 80%;
+}
+
+.left{
+ 	width: 33%;
+ 	height: 25%;
+ 	float: left;
+}
+
+.right {
+	width: 33%;
+	height: 25%;
+	float: right;
+}
+
+section figcaption {
+	display: inline;
+	position: relative;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	padding-top: 1.875em;
+	text-align: center;
+	font-family: 'FontAwesome', sans-serif;
+	border-top: solid 2px #e1e1e1;
+	font-size: 120%;
+	
+}
